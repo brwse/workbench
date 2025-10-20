@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question or Discussion
+    url: https://github.com/yourusername/workbench/discussions
+    about: Ask questions or discuss ideas with the community
+  - name: Dashboard
+    url: https://workbench.brwse.ai
+    about: Access the Workbench dashboard to manage your account
+  - name: Documentation
+    url: https://docs.brwse.ai/workbench
+    about: Read the official Workbench documentation

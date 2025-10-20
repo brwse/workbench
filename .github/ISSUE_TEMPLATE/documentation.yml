@@ -1,0 +1,62 @@
+name: Documentation Issue
+description: Report missing, unclear, or incorrect documentation
+title: "[Docs]: "
+labels: ["documentation", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Help us improve Workbench documentation!
+
+  - type: dropdown
+    id: issue-type
+    attributes:
+      label: Issue Type
+      description: What kind of documentation issue?
+      options:
+        - Missing documentation
+        - Unclear or confusing
+        - Incorrect or outdated
+        - Typo or formatting
+        - Code example not working
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: location
+    attributes:
+      label: Documentation Location
+      description: Where is the documentation issue?
+      placeholder: |
+        - URL: https://...
+        - Or: README section "..."
+        - Or: Example file path
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What's Wrong?
+      description: Describe the issue with the current documentation
+      placeholder: The documentation says... but it should...
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested Improvement
+      description: How would you improve it?
+      placeholder: I think it should say... / Add an example showing...
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Any other relevant information
+    validations:
+      required: false

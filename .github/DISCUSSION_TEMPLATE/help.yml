@@ -1,0 +1,51 @@
+title: "[Help]: "
+labels: [help, question]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Need help with Workbench? Ask your question here!
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: What do you need help with?
+      placeholder: How do I...
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: What Have You Tried?
+      description: What have you already attempted?
+      placeholder: I've tried...
+    validations:
+      required: false
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Topic Area
+      description: What is your question about?
+      options:
+        - Getting Started
+        - MCP Integration
+        - Dashboard / API Keys
+        - Profiles / Constraints
+        - Tool Usage
+        - Billing / Credits
+        - Agent Development
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Any other relevant information
+    validations:
+      required: false

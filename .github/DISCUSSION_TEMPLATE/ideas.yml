@@ -1,0 +1,35 @@
+title: "[Idea]: "
+labels: [idea]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share your ideas for Workbench! This is less formal than a feature request - just brainstorm with the community.
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your Idea
+      description: What's your idea?
+      placeholder: What if we could...
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why This Would Be Useful
+      description: How would this benefit Workbench users?
+      placeholder: This would help because...
+    validations:
+      required: false
+
+  - type: textarea
+    id: thoughts
+    attributes:
+      label: Initial Thoughts
+      description: Any thoughts on how this could work?
+      placeholder: Maybe we could...
+    validations:
+      required: false

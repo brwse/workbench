@@ -1,0 +1,73 @@
+title: "[Showcase]: "
+labels: [showcase, agent]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share your agent implementation with the community!
+
+  - type: input
+    id: agent-name
+    attributes:
+      label: Agent Name
+      description: What's your agent called?
+      placeholder: My Awesome Agent
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What does your agent do?
+      placeholder: This agent helps with...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: framework
+    attributes:
+      label: Framework/Library
+      description: What framework or library did you use?
+      options:
+        - MCP SDK (Python)
+        - MCP SDK (TypeScript)
+        - LangChain
+        - AutoGPT
+        - CrewAI
+        - Semantic Kernel
+        - Custom Implementation
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: features
+    attributes:
+      label: Key Features
+      description: What are the main features of your agent?
+      placeholder: |
+        - Feature 1
+        - Feature 2
+        - Feature 3
+    validations:
+      required: false
+
+  - type: textarea
+    id: link
+    attributes:
+      label: Repository / Demo Link
+      description: Link to your code or demo
+      placeholder: https://github.com/...
+    validations:
+      required: false
+
+  - type: textarea
+    id: learnings
+    attributes:
+      label: Learnings & Tips
+      description: What did you learn? Any tips for others?
+      placeholder: Here's what I learned...
+    validations:
+      required: false

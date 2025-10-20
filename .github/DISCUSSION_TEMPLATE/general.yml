@@ -1,0 +1,15 @@
+labels: [discussion]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for starting a discussion! This is a place to ask questions, share ideas, and connect with the community.
+
+  - type: textarea
+    id: content
+    attributes:
+      label: Discussion Topic
+      description: What would you like to discuss?
+    validations:
+      required: true
