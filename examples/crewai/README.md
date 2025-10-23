@@ -14,10 +14,20 @@ WORKBENCH_API_KEY=your_workbench_api_key
 ANTHROPIC_API_KEY=your_anthropic_api_key
 ```
 
-## Run
+## Examples
+
+### 1. Calculator (calculator.py)
+Creates a Python factorial calculator with tests.
 
 ```bash
-uv run main.py
+uv run calculator.py
+```
+
+### 2. Next.js Landing Page (nextjs_landing_page.py)
+Generates a complete Next.js landing page with TypeScript and Tailwind CSS.
+
+```bash
+uv run nextjs_landing_page.py
 ```
 
 ## Usage
